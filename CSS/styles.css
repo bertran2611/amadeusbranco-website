@@ -1,0 +1,300 @@
+body{
+    padding: 3% 15%;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: #8c52ff;
+}
+
+
+.btn{
+    background-color: #8c52ff;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #E845FF ;
+    color: white;
+}
+
+.fa-star{
+    color: #E845FF;
+}
+
+
+
+/* navbar */
+#navbarNav{
+    position: fixed;
+    left: 60%;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.navbar{
+    padding: 3% 15%;
+}
+
+.navbar-brand{
+    background-color: white;
+    border-radius: 8px;
+    padding: 0 5px;
+}
+
+/* title */
+.title-text{
+    padding: 20% 0 0 1%;
+}
+
+.title-img{
+    padding: 15% 0 0 8%;
+}
+
+.big-heading{
+    padding: 0 0 10% 0;
+    font-size: 3.5rem;
+}
+
+.purple-flower{
+    width: 400px;
+}
+
+
+
+
+/* what flower do we sell */
+#product-type{
+    padding: 10% 1%;
+}
+
+.product-type-h2{
+    padding: 50px 1%;
+}
+
+    /* image flower */
+    .img-flwr1{
+        width: 80%;
+        border-radius: 8px;
+    }
+
+    .img-flwr2{
+        width: 80%;
+        border-radius: 8px;
+    }
+
+    .img-flwr3{
+        width: 80%;
+        border-radius: 8px;
+    }
+
+    /* type h2 */
+    .h2-type{
+        padding: 7px 0;
+    }
+
+
+
+/* Top Product */
+#top-product{
+    padding: 30px 1%;
+}
+
+.top-type-h2{
+    padding: 50px 1%;
+    color: white;
+}
+
+.square-top-product{
+    margin: 20px 0 0 -50px;
+    height: 300px;
+    width: 600px;
+    background-color: #8c52ff;
+    border-radius: 70px;
+    position: absolute;
+    z-index: -1 ;
+}
+
+.product-col{
+    position: relative;
+    bottom: 0;
+    transition: 0.5s;
+}
+
+.product-col:hover{
+    bottom: 10px;
+}
+
+/* product */
+#product{
+    padding: 0 1%;
+    margin: 4% 0 0 0;
+}
+
+.more-product-btn{
+    text-align: center;
+}
+
+.prod-more-btn{
+    text-align: right;
+}
+
+
+/* about us */
+.about-head{
+    padding: 0 0 10% 0;
+}
+
+.about-h1{
+    padding: 20% 0 0 1%;
+}
+
+.about-text{
+    padding: 15% 0 0 0;
+    text-align: justify
+}
+
+
+
+
+
+
+/* footer */
+#footer{
+    background-color: #8c52ff;
+    color: white;
+    text-align: center;
+    margin: 30px 0 -3% 0;
+    border-radius: 8px;
+}
+
+.copyright{
+    text-align: center;
+    padding: 20px;
+}
+
+.instagram-footer{
+    padding: 5px;
+}
+
+.socialmed-btn{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    position: relative;
+    bottom: 0px;
+}
+
+.socialmed-btn:hover{
+    color: white;
+    bottom: 5px;
+}
+
+/* Learn more */
+.learn-more-h1{
+    padding: 10% 0 0 1%;
+}
+
+.learn-more-1-big-heading{
+    padding: 0 0 10% 0;
+    font-size: 3.5rem;
+}
+
+.learn-more-1-img{
+    width: 70%;
+    border-radius: 8px;
+}
+
+.learn-more-text{
+    padding: 10% 0 0 0;
+    text-align: justify
+}
+
+/* product detail */
+.order-btn{
+    border-radius: 20px;
+    background-color: #38FF57;
+    color: black;
+    margin: 10px 0 0 0;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.order-btn:hover{
+    background-color: #8C52FF;
+
+}
+
+
+
+@media (max-width: 770px) {
+
+    body{
+        padding: 3% 5%;
+    }
+
+
+    /* navbar */
+    #navbarNav{
+        position: static;
+        background-color: white;
+        margin: 2% 0 0 0;
+        opacity: 0.9;
+    }
+
+    .navbar{
+        padding: 5% 3%;
+    }
+
+    /* title */
+
+    .title-text, .title-img{
+        text-align: center;
+    }
+
+    .purple-flower{
+        width: 300px;
+    }
+
+    /* what flower do we sell */
+    #product-type{
+        text-align: center;
+    }
+
+    .learn-btn{
+        margin: 10px 0 40px 0;
+    } 
+
+    /* top product */
+    #top-product{
+        padding: 0 0 0 7%;
+    }
+
+    .square-top-product{
+        margin: 20px 0 0 -200px;
+        height: 200px;
+        width: 500px;  
+    }
+
+    /* product */
+    #product{
+        padding: 10% 0 0 7%;
+    }
+
+    /* about us */
+    .about-h1{
+        padding: 30% 0 0 8%;
+    }
+
+    .about-text{
+        padding: 0 2% 0 8%;
+        text-align: justify;
+    }
+}
