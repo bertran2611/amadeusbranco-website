@@ -273,6 +273,15 @@ a:hover{
         margin: 10px 0 40px 0;
     } 
 
+    
+
+    
+
+    .learn-more-head{
+        padding: 10% 0 0 0;
+    }
+
+
     /* top product */
     #top-product{
         padding: 0 0 0 7%;
@@ -294,6 +303,11 @@ a:hover{
         padding: 10% 0 0 0;
     }
 
+   /* product learn */
+   .learn-more-h1, .learn-more-1-big-heading{
+    text-align: center;
+    font-size: xx-large;
+    }
 
     /* about us */
     .about-h1{
@@ -330,20 +344,24 @@ a:hover{
         padding: 1% 30%;
     }
 
+ 
+
 
     /* nav-bottom */
     #nav-bottom{
        text-align: center; 
        visibility: visible;
     }
-    .p-nav-bott{
-        margin: 0 0 2px 0;
+    .nav-bottom-btn p{
+        margin: 3px 0 3% 0;
+        font-size: 12;
     }
 
     .nav-bott{
         background-color: white;
         border-style: solid;
-        border-color: #8C52FF;
+        border-color: gray;
+        border-width: 1px;
         border-radius: 50px 50px 0 0;
         padding: 3px 0 0 0;
     }
