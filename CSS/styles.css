@@ -2,7 +2,10 @@ body{
     padding: 3% 15%;
 }
 
-
+p{
+    font-family: 'montserrat';
+    font-weight: 400;
+}
 
 a{
     text-decoration: none;
@@ -138,13 +141,7 @@ a:hover{
     margin: 4% 0 0 0;
 }
 
-.more-product-btn{
-    text-align: center;
-}
 
-.prod-more-btn{
-    text-align: right;
-}
 
 
 /* about us */
@@ -220,16 +217,20 @@ a:hover{
 /* product detail */
 .order-btn{
     border-radius: 20px;
-    background-color: #38FF57;
-    color: black;
+    background-color: #8C52FF;
     margin: 10px 0 0 0;
     text-align: left;
     transition: 0.3s;
 }
 
 .order-btn:hover{
-    background-color: #8C52FF;
+    background-color: #E845FF;
 
+}
+
+/* nav bottom */
+#nav-bottom{
+    visibility: hidden;
 }
 
 
@@ -288,6 +289,12 @@ a:hover{
         padding: 10% 0 0 7%;
     }
 
+    /* product detail */
+    .product-detail-head{
+        padding: 10% 0 0 0;
+    }
+
+
     /* about us */
     .about-h1{
         padding: 30% 0 0 8%;
@@ -296,5 +303,64 @@ a:hover{
     .about-text{
         padding: 0 2% 0 8%;
         text-align: justify;
+    }
+
+    
+    
+}
+
+@media (max-width: 415px) {
+    body{
+        padding: 2%
+    }
+
+    /* footer */
+    #footer{
+        visibility: hidden;
+    }
+
+
+    /* product */
+    .more-product{
+        text-align: center;
+    }
+    
+    .more-product-btn{
+        margin: 20px 5% 0 0;
+        padding: 1% 30%;
+    }
+
+
+    /* nav-bottom */
+    #nav-bottom{
+       text-align: center; 
+       visibility: visible;
+    }
+    .p-nav-bott{
+        margin: 0 0 2px 0;
+    }
+
+    .nav-bott{
+        background-color: white;
+        border-style: solid;
+        border-color: #8C52FF;
+        border-radius: 50px 50px 0 0;
+        padding: 3px 0 0 0;
+    }
+
+    .fa-nav-bottom{
+        color: #8C52FF;
+        position: relative;
+        bottom: 0px;
+        transition: 0.3s;
+    }
+
+    .fa-nav-bottom:hover{
+        bottom: 5px;
+    }
+
+    .active-nav-bottom{
+        color: #E845FF;
+        bottom: 6px;
     }
 }
